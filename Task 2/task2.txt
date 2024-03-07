@@ -1,0 +1,139 @@
+Output for each scheduling algorithm and its average respons/turnaround time
+
+--- FIFO Scheduling ---
+Process Execution Order (FIFO):
+Executing Process 1 (Burst Time: 8)
+Turnaround Time for Process 1: 8
+Executing Process 2 (Burst Time: 5)
+Turnaround Time for Process 2: 12
+Executing Process 3 (Burst Time: 10)
+Turnaround Time for Process 3: 21
+Executing Process 4 (Burst Time: 3)
+Turnaround Time for Process 4: 23
+Executing Process 5 (Burst Time: 6)
+Turnaround Time for Process 5: 28
+Executing Process 6 (Burst Time: 7)
+Turnaround Time for Process 6: 34
+Executing Process 7 (Burst Time: 4)
+Turnaround Time for Process 7: 37
+Executing Process 8 (Burst Time: 9)
+Turnaround Time for Process 8: 45
+Executing Process 9 (Burst Time: 2)
+Turnaround Time for Process 9: 46
+Executing Process 10 (Burst Time: 5)
+Turnaround Time for Process 10: 50
+Executing Process 11 (Burst Time: 6)
+Turnaround Time for Process 11: 55
+Executing Process 12 (Burst Time: 8)
+Turnaround Time for Process 12: 62
+Executing Process 13 (Burst Time: 4)
+Turnaround Time for Process 13: 65
+Executing Process 14 (Burst Time: 7)
+Turnaround Time for Process 14: 71
+Executing Process 15 (Burst Time: 3)
+Turnaround Time for Process 15: 73
+Executing Process 16 (Burst Time: 6)
+Turnaround Time for Process 16: 78
+Executing Process 17 (Burst Time: 5)
+Turnaround Time for Process 17: 82
+Executing Process 18 (Burst Time: 4)
+Turnaround Time for Process 18: 85
+Executing Process 19 (Burst Time: 7)
+Turnaround Time for Process 19: 91
+Executing Process 20 (Burst Time: 9)
+Turnaround Time for Process 20: 99
+Average Turnaround Time for FIFO: 53.25
+Average Response Time for FIFO: 47.35
+
+--- SJF Scheduling ---
+Process Execution Order (SJF):
+Executing Process 1 (Burst Time: 8)
+Turnaround Time for Process 1: 8
+Executing Process 9 (Burst Time: 2)
+Turnaround Time for Process 9: 2
+Executing Process 4 (Burst Time: 3)
+Turnaround Time for Process 4: 10
+Executing Process 7 (Burst Time: 4)
+Turnaround Time for Process 7: 11
+Executing Process 15 (Burst Time: 3)
+Turnaround Time for Process 15: 6
+Executing Process 13 (Burst Time: 4)
+Turnaround Time for Process 13: 12
+Executing Process 18 (Burst Time: 4)
+Turnaround Time for Process 18: 11
+Executing Process 2 (Burst Time: 5)
+Turnaround Time for Process 2: 32
+Executing Process 10 (Burst Time: 5)
+Turnaround Time for Process 10: 29
+Executing Process 17 (Burst Time: 5)
+Turnaround Time for Process 17: 27
+Executing Process 5 (Burst Time: 6)
+Turnaround Time for Process 5: 45
+Executing Process 11 (Burst Time: 6)
+Turnaround Time for Process 11: 45
+Executing Process 16 (Burst Time: 6)
+Turnaround Time for Process 16: 46
+Executing Process 6 (Burst Time: 7)
+Turnaround Time for Process 6: 63
+Executing Process 14 (Burst Time: 7)
+Turnaround Time for Process 14: 62
+Executing Process 19 (Burst Time: 7)
+Turnaround Time for Process 19: 64
+Executing Process 12 (Burst Time: 8)
+Turnaround Time for Process 12: 79
+Executing Process 8 (Burst Time: 9)
+Turnaround Time for Process 8: 92
+Executing Process 20 (Burst Time: 9)
+Turnaround Time for Process 20: 89
+Executing Process 3 (Burst Time: 10)
+Turnaround Time for Process 3: 116
+Average Turnaround Time for SJF: 42.45
+Average Response Time for SJF: 36.55
+
+--- SRJF Scheduling ---
+Process Execution Order (SRJF):
+Executing Process 2 (Burst Time: 5)
+Turnaround Time for Process 2: 5
+Executing Process 4 (Burst Time: 3)
+Turnaround Time for Process 4: 6
+Executing Process 9 (Burst Time: 2)
+Turnaround Time for Process 9: 3
+Executing Process 7 (Burst Time: 4)
+Turnaround Time for Process 7: 9
+Executing Process 15 (Burst Time: 3)
+Turnaround Time for Process 15: 4
+Executing Process 13 (Burst Time: 4)
+Turnaround Time for Process 13: 10
+Executing Process 18 (Burst Time: 4)
+Turnaround Time for Process 18: 9
+Executing Process 10 (Burst Time: 5)
+Turnaround Time for Process 10: 22
+Executing Process 17 (Burst Time: 5)
+Turnaround Time for Process 17: 20
+Executing Process 5 (Burst Time: 6)
+Turnaround Time for Process 5: 38
+Executing Process 11 (Burst Time: 6)
+Turnaround Time for Process 11: 38
+Executing Process 16 (Burst Time: 6)
+Turnaround Time for Process 16: 39
+Executing Process 1 (Burst Time: 8)
+Turnaround Time for Process 1: 61
+Executing Process 6 (Burst Time: 7)
+Turnaround Time for Process 6: 63
+Executing Process 14 (Burst Time: 7)
+Turnaround Time for Process 14: 62
+Executing Process 19 (Burst Time: 7)
+Turnaround Time for Process 19: 64
+Executing Process 12 (Burst Time: 8)
+Turnaround Time for Process 12: 79
+Executing Process 8 (Burst Time: 9)
+Turnaround Time for Process 8: 92
+Executing Process 20 (Burst Time: 9)
+Turnaround Time for Process 20: 89
+Executing Process 3 (Burst Time: 10)
+Turnaround Time for Process 3: 116
+Average Turnaround Time for SRJF: 41.45
+Average Response Time for SRJF: 32.90
+
+The fastest algorithm is SRJF. The turnaround time (the total time from arrival to completion) for each process is often reduced in SRJF scheduling compared to FIFO or 
+non-preemptive SJF because the system continuously adapts to process the shortest remaining tasks. This dynamic adjustment leads to faster processing of the overall workload.
